@@ -1,3 +1,5 @@
+USE CATALOGO
+
 INSERT INTO GENERO (nomeGenero)
 VALUES ('Ação'),('Comédia'),('Romance')
 GO
