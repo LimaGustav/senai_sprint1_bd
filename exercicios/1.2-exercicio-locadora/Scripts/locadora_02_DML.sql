@@ -21,6 +21,8 @@ INSERT INTO VEICULO (idEmpresa,idModelo,placa)
 VALUES (2,1,'JNP-4579'),(1,2,'EZP-4541')
 GO
 
-INSERT INTO ALUGUEL (idVeiculo,idCliente,dataLocacao)
-VALUES (1,2,'2021-01-02 12:35:00'),(2,3,'2021-02-02 17:50:00'),(1,3,'2021-03-02 18:37:36')
+INSERT INTO ALUGUEL (idVeiculo,idCliente,dataRetirada, dataDevolucao)
+VALUES	(1,2,'2021-01-02 12:35:00','2021-01-04 12:45:00'),
+		(2,3,'2021-02-02 17:50:00','2021-02-05 19:50:00'),
+		(1,3,'2021-03-02 18:37:36','2021-04-08 12:50:00')
 GO
