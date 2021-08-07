@@ -9,9 +9,9 @@ VALUES ('AMANDA')
 
 
 INSERT INTO TELEFONE (idPessoa,numeroTelefone)
-VALUES (4,'11932259054'), (5,'1124311934'),(5,'40028922'),(3,'943491818')
+VALUES (1,'11932259054'), (2,'1124311934'),(2,'40028922'),(3,'943491818')
 GO
 
 INSERT INTO EMAIL (idPessoa,endEmail)
-VALUES (5,'g@hotmail.com'),(4,'ol@hotmail.com')
+VALUES (1,'g@hotmail.com'),(2,'ol@hotmail.com')
 GO

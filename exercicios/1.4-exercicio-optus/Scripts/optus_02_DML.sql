@@ -22,25 +22,24 @@ GO
 
 UPDATE ALBUM
 SET minutosDuracao = 80, disponibilidade = 1
-WHERE idAlbum = 9
+WHERE idAlbum = 1
 
 UPDATE ALBUM
 SET minutosDuracao = 145, disponibilidade = 1
-WHERE idAlbum = 10
+WHERE idAlbum = 2
 
 UPDATE ALBUM
 SET minutosDuracao = 320, disponibilidade = 0
-WHERE idAlbum = 11
+WHERE idAlbum = 3
 
 UPDATE ALBUM
 SET minutosDuracao = 245, disponibilidade = 1
-WHERE idAlbum = 12
+WHERE idAlbum = 4
 GO
 
 INSERT INTO ALBUM_ESTILO (idAlbum,idEstilo)
-VALUES (9,1),(10,2),(11,2),(12,3)
-GO
+VALUES (1,1),(2,2),(3,2),(4,3)
 
 INSERT INTO ALBUM_ESTILO (idAlbum,idEstilo)
-VALUES (9,2)
+VALUES (1,2)
 GO
