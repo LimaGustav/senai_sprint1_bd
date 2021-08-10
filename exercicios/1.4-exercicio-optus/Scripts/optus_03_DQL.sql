@@ -34,7 +34,7 @@ GO
 /*
 listar todos os álbuns ativos, mostrando o nome do artista e os estilos do álbum 
 */
-SELECT titulo,nomeArtista,nomeEstilo FROM ALBUM
+SELECT titulo Titulo,nomeArtista Artista,nomeEstilo Estilo FROM ALBUM
 LEFT JOIN ARTISTA
 ON ALBUM.idArtista = ARTISTA.idArtista
 LEFT JOIN ALBUM_ESTILO
@@ -42,3 +42,4 @@ ON ALBUM.idAlbum = ALBUM_ESTILO.idAlbum
 LEFT JOIN ESTILO
 ON ALBUM_ESTILO.idEstilo = ESTILO.idEstilo
 WHERE disponibilidade = 1
+GO
