@@ -44,3 +44,6 @@ VALUES	(1,8),(3,5),(5,5),(6,1),
 		(5,2),(3,8),(1,7),(5,3),
 		(6,7),(3,6)
 GO
+
+INSERT INTO CARRINHO (idPedido,idProduto)
+VALUES (1,2)
