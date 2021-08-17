@@ -1,6 +1,7 @@
 USE SENAISHOP
 GO
 
+
 /*
 - listar todos os pedidos de um cliente (nome),
 mostrando quais produtos foram solicitados (titulo)
