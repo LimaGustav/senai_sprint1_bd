@@ -13,4 +13,3 @@ VALUES	(1,'Minha mãe é uma peça'),(2,'Limitless'),
 	    (1,'Rambo'), (1,'Vingadores'),
 		(null,'HER'), (null,'Homem-Aranha');
 GO
-
